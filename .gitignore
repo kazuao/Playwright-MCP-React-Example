@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Playwright ---
+playwright-report/
+test-results/
+*.log
+*.webm        # 録画ファイル（動画）
+
+# Optional: Visual Regression (snapshot diffs)
+# *.png
+#!.snapshots/**   # 必要なスナップショットだけコミットする場合
+
+# If storing screenshots in a specific folder:
+screenshots/
+tests/screenshots/
+# !tests/screenshots/**/*.png    # 差分のベースだけコミットしたい場合は除外解除
+
+# --- Node/Vite ---
+node_modules/
+dist/
+.vite/
+
+# --- OS / Editor ---
+.DS_Store
+*.swp
+.env.local
